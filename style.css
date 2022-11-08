@@ -8,7 +8,11 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 90%;
     height: 400px;
+    margin: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 header #header-text{
     background-color: black;
@@ -18,6 +22,6 @@ header #header-text{
     padding-right: 5%;
     opacity: 0.5;
 }
-header p{
-    font-size: 25px;
-}
+    header p{
+        font-size: 25px;
+    }

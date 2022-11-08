@@ -48,3 +48,12 @@ nav{
         color: cyan;
         transition:0.5s;
     }
+
+footer{
+    background-color: azure;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: overline;
+    font-weight: bold;
+}

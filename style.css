@@ -48,10 +48,24 @@ nav{
         color: cyan;
         transition:0.5s;
     }
-
+	.bemutatkozas{
+        background-color: black;
+        margin-top: 2rem;
+        opacity: 0.7;
+        padding: 2rem;
+    }
+        #portfolio-kep{
+            width: 150px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 50%;
+            float: left;
+            position:relative;
+        }
 footer{
     background-color: azure;
     color: black;
+    margin-top: 2rem;
     padding: 10px;
     text-align: center;
     text-decoration: overline;

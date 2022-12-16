@@ -62,6 +62,38 @@ nav{
             float: left;
             position:relative;
         }
+.social{
+    background: url('images/social_bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+    .social h1{
+        font-size: 56px;
+    }
+.social:hover{
+}
+    #social-icons-block{
+    }
+    #social-icons-block ul{
+    }
+    #social-icons-block ul li{
+        float: left;
+        list-style: none;
+    }
+    #social-icons-block img{
+        transition: 0.5s ease;
+        filter: blur(5px);
+    }
+    #social-icons-block img:hover{
+        filter: blur(0px);
+    }
 footer{
     background-color: azure;
     color: black;

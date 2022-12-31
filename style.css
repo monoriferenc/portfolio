@@ -70,6 +70,10 @@ nav{
         #arajanlat a{
             text-decoration: none;
         }
+        #arajanlat-lista{
+            font-size: 20px;
+            padding-left: 5rem;
+        }
 .social{
     background: url('images/social_bg.jpg');
     background-attachment: fixed;

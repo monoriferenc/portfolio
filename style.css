@@ -62,6 +62,13 @@ nav{
             float: left;
             position:relative;
         }
+    #arajanlat{
+        margin-top: 2rem;
+        font-size: 32px;
+    }
+        #arajanlat a{
+            text-decoration: none;
+        }
 .social{
     background: url('images/social_bg.jpg');
     background-attachment: fixed;
@@ -76,6 +83,7 @@ nav{
 }
     .social h1{
         font-size: 56px;
+        text-shadow: 3px 3px 3px black;
     }
 .social:hover{
 }

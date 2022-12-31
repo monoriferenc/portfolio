@@ -1,6 +1,7 @@
 body{
     background-color: rgb(56, 56, 56);
     color: azure;
+    overflow-x: hidden;
 }
 header{
     background: url('images/header.jpg');
@@ -111,3 +112,15 @@ footer{
     text-decoration: overline;
     font-weight: bold;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
